@@ -1,8 +1,9 @@
-
-  # **Work Hard**
+function generateMarkdown(data) {
+        return `
+  # **${data.title}**
   
   ## Description 
-  n/a
+  ${data.description}
   ## Table of contents
   - [Description](#Description)
   - [Installation](#Installation)
@@ -13,18 +14,21 @@
   - [Repository Link](#Repository)
   - [GitHub Info](#GitHub) 
   ## Installation
-  work then do it harder
+  ${data.installation}
   ## Usage
-  LAzy people
+  ${data.usage}
   ## Licence
-  undefined
+  ${data.licence}
   ## Contributors
-  My Family
+  ${data.contributing}
   ## Test
-  Are you working hard?
+  ${data.test}
 
   ## Questions
 For more information:
-Visit: (https://MalcolmYates34.github.io)
-Email: malcolmyates34@gmail.com
-  
+Visit: (https://${data.username}.github.io)
+Email: ${data.email}
+  `;
+}
+
+module.exports = generateMarkdown;
