@@ -4,24 +4,24 @@
   ## Description 
   n/a
   ## Table of contents
-  - [Description](#Description)
-  - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [Licence](#Licence)
-  - [Contributors](#Contributors)
-  - [Test](#Test)
-  - [Repository Link](#Repository)
-  - [GitHub Info](#GitHub) 
+ * [Description](#description)
+* [Installation](#install)
+* [Usage](#usage)
+* [License](#license)
+* [Contributors](#contributors)
+* [Resources](#resources)
+* [Tests](#tests)
+* [Questions](#questions)
   ## Installation
-  work then do it harder
+  
   ## Usage
-  LAzy people
+  Lazy People
   ## Licence
   undefined
   ## Contributors
   My Family
   ## Test
-  Are you working hard?
+  n/a
 
   ## Questions
 For more information:
